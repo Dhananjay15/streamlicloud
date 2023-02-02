@@ -43,7 +43,7 @@ if user_menu == 'Home':
     st.title("Zomato analysis of Banglore based restaurants")
     st.text('This dataset is a collection of restaurants that are registered on Zomato.')
     st.text('In this dataset, we have more than 50000 rows and 17 columns, a fairly large dataset.')
-    st.text('The original Dataset is sourced from Kaggale.')
+    st.text('The original Dataset is sourced from Kaggle.')
     st.caption('https://www.kaggle.com/datasets/rajeshrampure/zomato-dataset?datasetId=2755701&sortBy=voteCount')
     st.text('For analysis purpose dataset is preprocessed accordingly')
     st.dataframe(df.head(10))
