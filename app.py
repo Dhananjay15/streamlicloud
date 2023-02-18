@@ -105,3 +105,5 @@ if user_menu == "No. of restaurants in a Location":
     fig = px.bar(final, x='Counts',y='Locations',color="Locations",text='Counts',title="Top 10 locations restaurant count")
     fig.update_layout(autosize=True)
     st.plotly_chart(fig)
+
+    
